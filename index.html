@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>집반찬연구소</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="head">
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="반찬을 입력해주세요." name="search">
+                    <div>
+                        <button class="search_but"></button>
+                    </div>
+                </form>
+            </div>
+
+            <a href="index.html" class="logo" target="_self"><img src="img/logo_pc.svg" alt="로고"></a>
+
+            <div class="header_right_top">
+                <ul>
+                    <li class="nav_menu"><a href="#">로그인</a></li>
+                    <li class="nav_menu"><a href="#">회원가입</a></li>
+                    <li id="tool_tip" class="nav_menu">
+                        <a href="#">고객센터</a>
+                        <ul>
+                            <li>식단 메뉴</li>
+                            <li>조리법</li>
+                            <li>공지사항</li>
+                            <li>자주묻는 질문</li>
+                            <li>1:1 문의</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_right_btm">
+                <ul>
+                    <li class="nav_menu menu_brand"><a href="#">브랜드</a></li>
+                    <li class="nav_menu menu_list"><a href="#">반찬보기</a></li>
+                    <li class="nav_menu menu_cart"><a href="#">장바구니</a></li>
+                    <li class="nav_menu menu_my"><a href="#">내정보</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 메인 베너 -->
+    <div id="main_banner" class="banner">
+        <div id="slider">
+            <a href="#"><img src="img/banner/banner_1.png" alt="건강한 시니어 식단 출시"></a>
+            <a href="#"><img src="img/banner/banner_2.png" alt="든든 한 끼, 가성비 반찬"></a>
+            <a href="#"><img src="img/banner/banner_3.png" alt="3월 한정, 봄 제철 반찬"></a>
+            <a href="#"><img src="img/banner/banner_4.png" alt="문 앞까지 오는 정기식단"></a>
+            <a href="#"><img src="img/banner/banner_5.png" alt="신규회원 혜택"></a>
+        </div>
+        <div id="slider_btn">
+            <span class="prev"><img src="img/icon/icon-arrow-left-a3a3a3-24.svg"></span>
+            <span class="next"><img src="img/icon/icon-arrow-right-a3a3a3-24.svg"></span>
+        </div>
+        <div id="slider_index">
+            <span id="slider_index_current">1</span> | <span id="slider_index_total">5</span>
+        </div>
+    </div>
+
+    <!-- nev -->
+    <div class="main_nav">
+        <ul>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001051_main.png" alt="">
+                    <span>첫 만남</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001062_main.png" alt="">
+                    <span>알뜰 반찬</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001064_main.png" alt="">
+                    <span>봄맞이 반찬</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001060_main.png" alt="">
+                    <span>신제품</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001048_main.png" alt="">
+                    <span>아이 식단</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001049_main.png" alt="">
+                    <span>가족식단</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001003_main.png" alt="">
+                    <span>무침</span>
+                </a></li>
+            <li><a href="sub.html" target="_self">
+                    <img src="img/mainNav/001009_main.png" alt="">
+                    <span>볶음</span>
+                </a></li>
+        </ul>
+    </div>
+
+    <div class="nav_more">
+        <button><span>더보기</span><img src="img/icon-arrow-down.svg" alt=""></button>
+    </div>
+
+    <!-- 베너2 -->
+    <div class="banner">
+        <img src="img/godo_banner1737962008.png" alt="정기식단 한눈에 보기">
+    </div>
+
+    <!-- 부담없는 알뜰 반찬 -->
+    <section>
+        <div class="section_head">
+            <h2>부담없는 알뜰 반찬</h2>
+            <p>
+                착한 가격으로 챙기는 든든 한 끼
+                <a class="show_all">전체보기<img src="img/icon-arrow-right.svg" alt="전체보기"></a>
+            </p>
+
+        </div>
+        <div class="banchan_list banchan_list_rec">
+            <div class="product">
+                <a href="#">
+                    <img src="img/39_ZIP_P_5005_T.jpg" alt="무나물">
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_2">맵지않음</span>
+                        <h4>무나물</h4>
+                        <p>쭉 익혀서 먹기 편해요</p>
+                        <h5>2,800원</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="img/86_ZIP_P_6008_T.jpg" alt="미역줄기볶음">
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_1">인기</span><span class="prd_tag tag_2">맵지않음</span>
+                        <h4>미역줄기볶음</h4>
+                        <p>쭉 익혀서 먹기 편해요</p>
+                        <h5>2,800원</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="img/71_ZIP_P_6001_T.jpg" alt="감자채볶음">
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_1">인기</span><span class="prd_tag tag_2">맵지않음</span>
+                        <h4>감자채볶음</h4>
+                        <p>쭉 익혀서 먹기 편해요</p>
+                        <h5>2,800원</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="img/410_ZIP_P_4028_T.jpg" alt="한입 두부간장조림">
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_2">맵지않음</span>
+                        <h4>한입 두부간장조림</h4>
+                        <p>쭉 익혀서 먹기 편해요</p>
+                        <h5>2,800원</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <img src="img/1422_ZIP_P_5150_T.jpg" alt="새콤 오이무생채">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>새콤 오이무생채</h4>
+                    <p>아이들이 먹기 좋은 깔끔한 무생채채</p>
+                    <h5>2,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/67_ZIP_P_4014_T.jpg" alt="간장 감자조림">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>간장 감자조림</h4>
+                    <p>포근포근 잘 익혔어요요</p>
+                    <h5>3,500원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1476_ZIP_P_5162_T.jpg" alt="마카로니 범벅">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>마카로니 범벅</h4>
+                    <p>알록달록 다채로운</p>
+                    <h5>3,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/2360_ZIP_P_6336_T.png" alt="소세지 야채볶음">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_3">신제품</span><span class="prd_tag tag_2">맵지않음</span>
+                    <h4>소세지 야채볶음</h4>
+                    <p>탱글한 소시지와 신선한 야채의 만남</p>
+                    <h5>3,800원</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 베너3 -->
+    <div class="banner_3">
+        <img src="img/ddd.png" alt="">
+        <img src="img/sssss.png" alt="">
+        <img src="img/templite4.png" alt="">
+    </div>
+
+
+    <!-- 어린이 반찬 -->
+    <section>
+        <div class="section_head">
+            <h2>어린이 반찬</h2>
+            <p>
+                착한 가격으로 챙기는 든든 한 끼
+                <a class="show_all">전체보기<img src="img/icon-arrow-right.svg" alt="전체보기"></a>
+            </p>
+        </div>
+        <div class="banchan_list banchan_list_rec">
+            <div class="product">
+                <img src="img/1422_ZIP_P_5150_T.jpg" alt="새콤 오이무생채">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>새콤 오이무생채</h4>
+                    <p>아이들이 먹기 좋은 깔끔한 무생채채</p>
+                    <h5>2,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/67_ZIP_P_4014_T.jpg" alt="간장 감자조림">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>간장 감자조림</h4>
+                    <p>포근포근 잘 익혔어요요</p>
+                    <h5>3,500원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1476_ZIP_P_5162_T.jpg" alt="마카로니 범벅">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>마카로니 범벅</h4>
+                    <p>알록달록 다채로운</p>
+                    <h5>3,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/2360_ZIP_P_6336_T.png" alt="소세지 야채볶음">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_3">신제품</span><span class="prd_tag tag_2">맵지않음</span>
+                    <h4>소세지 야채볶음</h4>
+                    <p>탱글한 소시지와 신선한 야채의 만남</p>
+                    <h5>3,800원</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 새로 나온 반찬 -->
+    <section>
+        <div class="section_head">
+            <h2>새로 나온 반찬</h2>
+        </div>
+        <div class="banchan_list banchan_list_rec">
+            <div class="product">
+                <img src="img/1409_ZIP_P_5146_T.jpg" alt="새콤달콤 돌나무무침">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_3">신제품</span><span class="prd_tag tag_4">제철반찬</span>
+                    <h4>새콤달콤 돌나무무침</h4>
+                    <p>톡톡 터지는 식감</p>
+                    <h5>4,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1410_ZIP_P_5147_T.jpg" alt="향긋한 봄나물무침">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_3">신제품</span><span class="prd_tag tag_4">제철반찬</span>
+                    <h4>향긋한 봄나물무침</h4>
+                    <p>봄냄새 가득 담은 요리!</p>
+                    <h5>2,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1951_ZIP_P_1061_T.jpg" alt="한돈 버섯고추장찌개">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_3">신제품</span>
+                    <h4>한돈 버섯고추장찌개</h4>
+                    <p>서늘한 바람 불 때, 얼큰함 한 숫갈</p>
+                    <h5>2,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1792_ZIP_P_5121_T.png" alt="풋마늘무침">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_3">신제품</span><span class="prd_tag tag_4">제철반찬</span>
+                    <h4>새콤달콤 풋마늘무침</h4>
+                    <p>입맛 살리는 톡 쏘는 맛</p>
+                    <h5>2,800원</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 배너4 -->
+    <div class="banner">
+        <img src="img/templite1.png" alt="배송 가능 지역">
+    </div>
+
+    <!-- 이번주 정기식단 -->
+    <section>
+        <div class="section_head">
+            <h2>이번주 정기식단</h2>
+            <p>
+                착한 가격으로 챙기는 든든 한 끼
+                <a class="show_all">전체보기<img src="img/icon-arrow-right.svg" alt="전체보기"></a>
+            </p>
+        </div>
+        <div id="regular_container">
+            <div id="regular_tab">
+                <ul>
+                    <li class="nav_on">골고루반찬식단</li>
+                    <li>실속식단</li>
+                    <li>시니어식단</li>
+                    <li>건강한 시니어식단</li>
+                    <li>가족식단</li>
+                    <li>든든한 가족식단</li>
+                    <li>유아식단</li>
+                    <li>든든한 유아식단</li>
+                    <li>어린이식단</li>
+                    <li>든든한 어린이 식단</li>
+                </ul>
+            </div>
+            <div id="regular_list">
+                <div class="regular_list_disc">
+                    <h3>골고루반찬식단</h3>
+                    <span><strong>메인요리 1, 반찬 5개</strong>로 구성된 식단이에요.</span>
+                </div>
+                <div class="regular_list_contain"> <!-- 식단 1 -->
+                    <h4>2월 25~27일 (화/수/목)</h4>
+                    <ul>
+                        <li>
+                            <img src="img/1349_ZIP_P_0094_T.jpg" alt="">
+                            <p>소불고기_반조리</p>
+                        </li>
+                        <li>
+                            <img src="img/1948_ZIP_P_6389_T.jpg" alt="">
+                            <p>고구마 맛탕</p>
+                        </li>
+                        <li>
+                            <img src="img/135_ZIP_P_5012_T.jpg" alt="">
+                            <p>참나물무침</p>
+                        </li>
+                        <li>
+                            <img src="img/1785_ZIP_P_6293_T.jpg" alt="">
+                            <p>케찹두부조림 - 120g</p>
+                        </li>
+                        <li>
+                            <img src="img/1187_ZIP_P_6206_T.jpg" alt="">
+                            <p>가지강정</p>
+                        </li>
+                        <li>
+                            <img src="img/137_ZIP_P_4003_T.jpg" alt="">
+                            <p>메추리알 간장조림 - 110g</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="regular_list_contain"> <!-- 식단 2 -->
+                    <h4>2월 28일~3월 3일 (금/토/월)</h4>
+                    <ul>
+                        <li>
+                            <img src="img/1337_ZIP_P_0090_T.jpg" alt="">
+                            <p>순살 닭볶음탕</p>
+                        </li>
+                        <li>
+                            <img src="img/1187_ZIP_P_6206_T.jpg" alt="">
+                            <p>가지강정</p>
+                        </li>
+                        <li>
+                            <img src="img/1201_ZIP_P_6220_T.jpg" alt="">
+                            <p>들깨시래기볶음</p>
+                        </li>
+                        <li>
+                            <img src="img/36_ZIP_P_5003_T.jpg" alt="">
+                            <p>콩나물무침</p>
+                        </li>
+                        <li>
+                            <img src="img/52_ZIP_P_4007_T.jpg" alt="">
+                            <p>연근조림</p>
+                        </li>
+                        <li>
+                            <img src="img/335_ZIP_P_5038_T.jpg" alt="">
+                            <p>파래김무침</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="regular_list_arrow">
+                    <span class="pre"><img src="img/icon-arrow-left.svg" alt="">이전주 식단</span>
+                    <span class="next">다음주 식단<img src="img/icon-arrow-right2.svg" alt=""></span>
+                </div>
+
+                <div class="regular_list_foot">
+                    <!-- <div>개별 구매 대신, 반찬 구독할 때 <strong>34,800원</strong></div> -->
+                    <a href="#">정기식단 구독하기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 반찬 순위 -->
+    <section>
+        <div class="section_head">
+            <h2>반찬 순위</h2>
+            <p>최근 2주간 반찬 순위에요!</p>
+        </div>
+        <div class="rank_container">
+            <div class="rank_tab">
+                <ul>
+                    <li class="on">판매량</li>
+                    <li>댓글</li>
+                    <li>추천</li>
+                </ul>
+            </div>
+            <div class="rank_list">
+                <div class="product_rank">
+                    <div>
+                        <img src="img/17_ZIP_P_6014_T.jpg" alt="">
+                        <!-- <button action=""></button>/ -->
+                    </div>
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_3">인기</span><span class="prd_tag tag_3">맵지않음</span>
+                        <h4>호두 멸치 볶음</h4>
+                        <p>잔멸치와 호두가 만나 짭쪼름하지만 고소하게!</p>
+                        <h5>4,800원</h5>
+                    </div>
+                </div>
+                <div class="product_rank">
+                    <div>
+                        <img src="img/38_ZIP_P_5004_T.jpg" alt="">
+                        <!-- <button action=""></button>/ -->
+                    </div>
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_3">인기</span><span class="prd_tag tag_3">맵지않음</span>
+                        <h4>무생채</h4>
+                        <p>잔멸치와 호두가 만나 짭쪼름하지만 고소하게!</p>
+                        <h5>4,800원</h5>
+                    </div>
+                </div>
+                <div class="product_rank">
+                    <div>
+                        <img src="img/86_ZIP_P_6008_T.jpg" alt="">
+                        <!-- <button action=""></button>/ -->
+                    </div>
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_3">인기</span><span class="prd_tag tag_3">맵지않음</span>
+                        <h4>미역줄기볶음</h4>
+                        <p>잔멸치와 호두가 만나 짭쪼름하지만 고소하게!</p>
+                        <h5>4,800원</h5>
+                    </div>
+                </div>
+                <div class="product_rank">
+                    <div>
+                        <img src="img/71_ZIP_P_6001_T.jpg" alt="">
+                        <!-- <button action=""></button>/ -->
+                    </div>
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_3">인기</span><span class="prd_tag tag_3">맵지않음</span>
+                        <h4>호두 멸치 볶음</h4>
+                        <p>잔멸치와 호두가 만나 짭쪼름하지만 고소하게!</p>
+                        <h5>4,800원</h5>
+                    </div>
+                </div>
+                <div class="product_rank">
+                    <div>
+                        <img src="img/36_ZIP_P_5003_T.jpg" alt="">
+                        <!-- <button action=""></button>/ -->
+                    </div>
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_3">인기</span><span class="prd_tag tag_3">맵지않음</span>
+                        <h4>호두 멸치 볶음</h4>
+                        <p>잔멸치와 호두가 만나 짭쪼름하지만 고소하게!</p>
+                        <h5>4,800원</h5>
+                    </div>
+                </div>
+                <div class="product_rank">
+                    <div>
+                        <img src="img/39_ZIP_P_5005_T.jpg" alt="">
+                        <!-- <button action=""></button>/ -->
+                    </div>
+                    <div class="prd_discription">
+                        <span class="prd_tag tag_3">인기</span><span class="prd_tag tag_3">맵지않음</span>
+                        <h4>호두 멸치 볶음</h4>
+                        <p>잔멸치와 호두가 만나 짭쪼름하지만 고소하게!</p>
+                        <h5>4,800원</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 고객이 추천하는 찐 추천 반찬 -->
+    <section>
+        <div class="section_head">
+            <h2>고객이 추천하는 찐 추천 반찬</h2>
+        </div>
+        <div class="recommend_tab">
+            <span class="on">강*예님 추천</span>
+            <span>강*예님 추천</span>
+            <span>강*예님 추천</span>
+            <span>강*예님 추천</span>
+        </div>
+        <div class="recommend_content">
+            <div>
+                <img src="img/cp_image_0.png" alt="">
+            </div>
+            <div class="rec_right">
+                <div class="rec_right_header">
+                    <h3>강*예님의 장바구니</h3>
+                    <p>친구들이랑 홈파티할 때나, 최근 후 집에서 혼술할 때<br>
+                        간단히 뚝-딱 차리기 좋아요!<br>
+                        밥반찬으로도 술 안주로도 딱이에요.</p>
+                </div>
+                <div class="rec_right_content"> <!-- 추천 상품 리스트 -->
+                    <div class="product_rec">
+                        <img src="img/1356_ZIP_P_0102_T.jpg" alt="">
+                        <div class="rec_disc">
+                            <div class="tag"></div>
+                            <h4>한돈 김치두루..</h4>
+                            <p>남녀노소 누구나 좋아..</p>
+                            <h5>14,800원</h5>
+                        </div>
+                    </div>
+                    <div class="product_rec">
+                        <img src="img/1780_ZIP_P_0141_T.jpg" alt="">
+                        <div class="rec_disc">
+                            <div class="tag"><span></span></div>
+                            <h4>한돈 김치두루..</h4>
+                            <p>남녀노소 누구나 좋아..</p>
+                            <h5>14,800원</h5>
+                        </div>
+                    </div>
+                    <div class="product_rec">
+                        <img src="img/1080_ZIP_P_3077_T_RE.jpg" alt="">
+                        <div class="rec_disc">
+                            <div class="tag"><span></span></div>
+                            <h4>한돈 김치두루..</h4>
+                            <p>남녀노소 누구나 좋아..</p>
+                            <h5>14,800원</h5>
+                        </div>
+                    </div>
+                    <div class="product_rec">
+                        <img src="img/723_ZIP_P_5068_T.jpg" alt="">
+                        <div class="rec_disc">
+                            <div class="tag"><span></span></div>
+                            <h4>한돈 김치두루..</h4>
+                            <p>남녀노소 누구나 좋아..</p>
+                            <h5>14,800원</h5>
+                        </div>
+                    </div>
+                    <div class="product_rec">
+                        <img src="img/71_ZIP_P_6001_T.jpg" alt="">
+                        <div class="rec_disc">
+                            <div class="tag"><span></span></div>
+                            <h4>한돈 김치두루..</h4>
+                            <p>남녀노소 누구나 좋아..</p>
+                            <h5>14,800원</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec_btn">
+                    <button onclick=""><img src="img/icon-cart-0d5611.svg" alt="">장바구니에 한번에 담기</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MD 추천반찬 -->
+    <section>
+        <div class="section_head">
+            <h2>MD 추천반찬</h2>
+            <p>이번 주 가장 추천하는 제품만 골라드려요.</p>
+        </div>
+        <div class="recommend_tab">
+            <span class="on">비빔밥</span>
+            <span>국/찌개/탕</span>
+            <span>어린이 반찬</span>
+            <span>볶음</span>
+            <span>무침</span>
+            <span>메인요리</span>
+            <span>조림</span>
+        </div>
+        <div class="banchan_list banchan_list_tall">
+            <div class="product">
+                <img src="img/2190_ZIP_P_9529_a_re.png" alt="">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>새콤달콤 풋마늘 무침</h4>
+                    <p>입맛 살리른 톡 쏘는 맛</p>
+                    <h5>4,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1833_ZIP_P_9396_A.jpg" alt="">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>새콤달콤 풋마늘 무침</h4>
+                    <p>입맛 살리른 톡 쏘는 맛</p>
+                    <h5>4,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/1830_ZIP_P_9393_A.jpg" alt="">
+                <div class="prd_discription">
+                    <span class="prd_tag tag_2">맵지않음</span>
+                    <h4>새콤달콤 풋마늘 무침</h4>
+                    <p>입맛 살리른 톡 쏘는 맛</p>
+                    <h5>4,800원</h5>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/2068_ZIP_P_9473_A.jpg" alt="">
+                <div class="prd_discription">
+                    <span>신제품</span><span class="prd_tag tag_2">맵지않음</span>
+                    <h4>새콤달콤 풋마늘 무침</h4>
+                    <p>입맛 살리른 톡 쏘는 맛</p>
+                    <h5>4,800원</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer_service">
+            <h3>고객센터</h3>
+            <strong>1588-3754</strong>
+            <small>zipbanchan@sannamchon.co.kr</small>
+            <p>
+                평일 08:30~17:30 / 토요일 08:30~12:00<br>
+                점심시간 12:00~13:00<br>
+                일요일, 공휴일은 휴무입니다.
+            </p>
+        </div>
+        <div class="footer_info">
+            <h3>집반찬연구소</h3>
+            <p>
+                인천광역시 서구 가석로 26(가좌동) 집반찬연구소 대표자 : 박종철<br>
+                사업자등록번호 : 121-86-17743 통신판매업 신고번호 : 제 2023-인천서구-3834 호 개인정보보호책임자 : 정문채<br>
+                제휴 문의 : zipbanchan@sannamchon.co.kr
+            </p>
+            <a href="#">집밥찬연구소 소개</a>|
+            <a href="#">이용약관</a>|
+            <a href="#">개인정보처리방침</a>
+            <small>Copyright ⓒ SANNAMCHON CORP. All Rights Reserved.</small>
+        </div>
+    </footer>
+
+</body>
+
+</html>

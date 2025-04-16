@@ -1,0 +1,541 @@
+@charset "utf-8";
+
+#sub {
+    width: 1000px;
+    height: auto;
+    margin: 60px auto;
+}
+
+#banchan_main {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+#banchan_main .banchan_main_img {
+    width: 480px;
+    height: 480px;
+    margin-right: 40px;
+}
+
+#banchan_main .banchan_main_img img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#banchan_main .banchan_main_info {
+    width: 360px;
+    position: relative;
+}
+
+.prd_tag {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 3px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.tag_1 {
+    color: #0D5611;
+    background-color: rgba(13, 86, 17, .15);
+}
+
+.tag_2 {
+    color: #F39C12;
+    background-color: rgba(243, 156, 18, .15);
+}
+
+.tag_3 {
+    color: #BD2420;
+    background-color: rgba(189, 36, 32, .15);
+}
+
+.tag_4 {
+    color: #525252;
+    background-color: #F0F0F0;
+}
+
+.banchan_main_info h1 {
+    color: #111;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    margin: 12px 0 4px;
+    display: block;
+}
+
+.banchan_main_info p.banchan_main_desc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-bottom: 20px;
+}
+
+.banchan_main_info p.banchan_main_price {
+    color: #111;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.banchan_main_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banchan_total_price {
+    padding: 20px 0;
+    position: relative;
+}
+
+.banchan_total_price strong {
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.banchan_total_price p {
+    color: #111;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.banchan_btn_class {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.like_btn {
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+    background: #FFF;
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.add_cart {
+    border-radius: 4px;
+    height: 52px;
+    line-height: 52px;
+    flex: 1;
+    background-color: #0D5611;
+    color: #fff;
+    padding: 0 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #0D5611;
+}
+
+#banchan_star_rank {
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    margin-bottom: 32px;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+#banchan_star_rank>strong {
+    color: #111;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#banchan_star_rank p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+#banchan_star_rank p>strong {
+    color: #0D5611;
+}
+
+.banchan_tab {
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 40px;
+    /**position: fixed;
+    width: 100%;
+    left: 0px;
+    top:0px;**/
+    background-color: #FFF;
+}
+
+.banchan_tab ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banchan_tab li {
+    width: 329px;
+    display: inline-block;
+    padding: 16px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.banchan_tab li a {
+    color: #A3A3A3;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.banchan_tab li.on {
+    color: #0D5611;
+    border-bottom: 1px solid #0D5611;
+}
+
+#banchan_description {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banchan_description>img {
+    width: 800px;
+}
+
+#regular_menu {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#regular_menu .calinder {
+    padding: 10px;
+}
+
+#regular_menu .calinder h3 {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#regular_menu .calinder ul {
+    display: inline-block;
+    padding: 16px 0 0 50px;
+    vertical-align: top;
+}
+
+#regular_menu .calinder li {
+    display: inline-block;
+    margin-right: 4px;
+    border: 1px solid #757575;
+    color: #757575;
+    display: inline-block;
+    line-height: 24px;
+    border-radius: 12px;
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+}
+
+#regular_menu .calinder li.on {
+    background: #284733;
+    color: #fff;
+}
+
+.calinder .prenext_btn {
+    float: right;
+    line-height: 60px;
+    margin-right: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.calinder .prenext_btn a {
+    font-size: 12px;
+    color: #757575;
+}
+
+.regular_menu_content {
+    padding: 40px 0 26px 0;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+.regular_menu_content h4 {
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.regular_menu_content ul {
+    width: 760px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.regular_menu_content ul li {
+    width: 126px;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.regular_menu_content ul li img {
+    width: 100%;
+    border-radius: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+}
+
+.regular_menu_content ul li p {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+    word-break: break-word;
+    color: #757575;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+#banchan_info {
+    width: 800px;
+    margin: 80px auto;
+}
+
+#banchan_info table {
+    margin: 10px 0 0 0;
+    border-collapse: collapse;
+}
+
+#banchan_info table th {
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+    text-align: left;
+    width:200px;
+    border-bottom: 1px solid #F0F0F0;
+    line-height:40px;
+}
+
+#banchan_info table td {
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+    border-bottom: 1px solid #F0F0F0;
+    padding-right: 10px;
+}
+
+.banchan_recommend {
+    width: 880px;
+    margin: 80px auto;
+    border-top:2px solid #111;
+}
+
+.banchan_recommend h2 {
+    color: #111;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    padding: 40px 0px 16px;
+}
+
+.banchan_recommend > p {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 48px;
+    display: block;
+}
+
+.banchan_recommend .banchan_recommend_list {
+    display:flex;
+    box-sizing: content-box;
+}
+
+.banchan_recommend_list .product {
+    width: 208px;
+    margin-right: 16px;
+}
+
+.banchan_recommend_list .product img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.banchan_recommend_list .product .prd_discription h4 {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.banchan_recommend_list .product .prd_discription p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom:12px;
+}
+
+.banchan_recommend_list .product .prd_discription h5 {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+#banchan_review {
+    width: 880px;
+    margin: 80px auto;
+    border-top:2px solid #111;
+}
+
+#banchan_review h2 {
+    padding: 40px 0px 32px;
+    color: #111;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+}
+
+#banchan_review h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+#banchan_review .photo_review {
+    margin-bottom: 20px;
+}
+
+#banchan_review .photo_review ul{
+    height: 137px;
+    display: flex;
+    box-sizing:content-box;
+}
+
+#banchan_review .photo_review ul li {
+    width: 136px;
+    margin-right: 12px;
+}
+
+#banchan_review .photo_review ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+#banchan_review .review_list {
+    border-collapse: collapse;
+    border-top: 1px solid #E5E5E5;
+    width: 100%;
+}
+
+#banchan_review .review_list tr {
+    height: 30px;
+}
+
+#banchan_review .review_list .review_content a {
+    padding:0 10px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+#banchan_review .review_list .reviewer {
+    color: #111;
+    font-size: 14px;
+    font-weight: 700;
+    text-align:center;
+}
+
+#banchan_review .review_list .review_date {
+    color: #A3A3A3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#banchan_review .review_list .star {
+    width: 100px;
+    background-image: url("../img/sub/icon-star-e5e5e5-20.svg");
+    background-repeat: repeat-x;
+    background-position-y: center;
+}
+
+#banchan_review .review_list .star1 {
+    width: 20%;
+    height:30px;
+    background-image: url("../img/sub/icon-star-0d5611-20.svg");
+    background-repeat: repeat-x;
+    background-position-y: center;
+}
+
+#banchan_review .review_list .star2 {
+    width: 40%;
+    height:30px;
+    background-image: url("../img/sub/icon-star-0d5611-20.svg");
+    background-repeat: repeat-x;
+    background-position-y: center;
+}
+
+#banchan_review .review_list .star3 {
+    width: 60%;
+    height:30px;
+    background-image: url("../img/sub/icon-star-0d5611-20.svg");
+    background-repeat: repeat-x;
+    background-position-y: center;
+}
+
+#banchan_review .review_list .star4 {
+    width: 80%;
+    height:30px;
+    background-image: url("../img/sub/icon-star-0d5611-20.svg");
+    background-repeat: repeat-x;
+    background-position-y: center;
+}
+
+#banchan_review .review_list .star5 {
+    width: 100%;
+    height:30px;
+    background-image: url("../img/sub/icon-star-0d5611-20.svg");
+    background-repeat: repeat-x;
+    background-position-y: center;
+}
