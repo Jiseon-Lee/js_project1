@@ -13,11 +13,12 @@
 
 #main_banner #slider a {
     height: 100%;
-    display: block;
-    background-image: url("../img/banner/banner_1.png");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position-x: center;
+    display: flex;
+    justify-content: center;
+}
+
+#main_banner #slider a img {
+    height: 100%;
 }
 
 #slider_btn {

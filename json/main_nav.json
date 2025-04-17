@@ -1,0 +1,61 @@
+[{
+    "name" : "첫 만남",
+    "img" : "img/mainNav/main_01.png"
+},{
+    "name" : "폭싹 담은 정식",
+    "img" : "img/mainNav/main_02.png"
+},{
+    "name" : "알뜰 반찬",
+    "img" : "img/mainNav/main_03.png"
+},{
+    "name" : "든든한 한끼",
+    "img" : "img/mainNav/main_04.png"
+},{
+    "name" : "봄맞이 반찬",
+    "img" : "img/mainNav/main_05.png"
+},{
+    "name" : "신제품",
+    "img" : "img/mainNav/main_06.png"
+},{
+    "name" : "아이 식단",
+    "img" : "img/mainNav/main_07.png"
+},{
+    "name" : "가족 식단",
+    "img" : "img/mainNav/main_08.png"
+},{
+    "name" : "무침",
+    "img" : "img/mainNav/main_09.png"
+},{
+    "name" : "볶음",
+    "img" : "img/mainNav/main_10.png"
+},{
+    "name" : "조림",
+    "img" : "img/mainNav/main_11.png"
+},{
+    "name" : "어린이 반찬",
+    "img" : "img/mainNav/main_12.png"
+},{
+    "name" : "찬합/비빔밥",
+    "img" : "img/mainNav/main_13.png"
+},{
+    "name" : "메인요리",
+    "img" : "img/mainNav/main_14.png"
+},{
+    "name" : "전/부침",
+    "img" : "img/mainNav/main_15.png"
+},{
+    "name" : "국/찌개/탕",
+    "img" : "img/mainNav/main_16.png"
+},{
+    "name" : "김치/절임",
+    "img" : "img/mainNav/main_17.png"
+},{
+    "name" : "반찬 세트",
+    "img" : "img/mainNav/main_18.png"
+},{
+    "name" : "협업상품",
+    "img" : "img/mainNav/main_19.png"
+},{
+    "name" : "제사상",
+    "img" : "img/mainNav/main_20.png"
+}]
