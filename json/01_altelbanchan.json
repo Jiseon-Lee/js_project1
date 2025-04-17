@@ -1,0 +1,92 @@
+[{
+    "name" : "무나물",
+    "discription" : "푹 익혀서 먹기 편해요",
+    "discount_price" : 2800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"}
+    ],
+    "main_img" : "img/product/product_1.jpg",
+    "display" : 1
+},{
+    "name" : "미역줄기볶음",
+    "discription" : "바다의 채소 미역줄기",
+    "discount_price" : 2800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"},
+        {"tag_id" : 2, "tag_name" : "인기"}
+    ],
+    "main_img" : "img/product/product_2.jpg",
+    "display" : 1
+},{
+    "name" : "감자채볶음",
+    "discription" : "고소하면서 담백한 감자채볶음",
+    "discount_price" : 2800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"},
+        {"tag_id" : 2, "tag_name" : "인기"}
+    ],
+    "main_img" : "img/product/product_3.jpg",
+    "display" : 1
+},{
+    "name" : "한입 두부간장조림",
+    "discription" : "네모난 두부조림이 한입에 쏙",
+    "discount_price" : 2800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"}
+    ],
+    "main_img" : "img/product/product_4.jpg",
+    "display" : 1
+},{
+    "name" : "옥수수 버무리",
+    "discription" : "믿고 먹일 수 있는 반찬",
+    "discount_price" : 2800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"}
+    ],
+    "main_img" : "img/product/product_5.jpg",
+    "display" : 1
+},{
+    "name" : "무생채",
+    "discription" : "비빔밥 먹을 때 필수인 무생채",
+    "discount_price" : 2900,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 2, "tag_name" : "인기"}
+    ],
+    "main_img" : "img/product/product_6.jpg",
+    "display" : 1
+},{
+    "name" : "검은콩조림",
+    "discription" : "국내산 검은콩은 약콩입니다",
+    "discount_price" : 3800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"},
+        {"tag_id" : 2, "tag_name" : "인기"}
+    ],
+    "main_img" : "img/product/product_7.jpg",
+    "display" : 1
+},{
+    "name" : "건가지볶음",
+    "discription" : "국내산 건가지를 고소하게 볶았어요",
+    "discount_price" : 3800,
+    "discount" : 0,
+    "price" : null,
+    "tag" : [
+        {"tag_id" : 1, "tag_name" : "맵지않음"}
+    ],
+    "main_img" : "img/product/product_8.jpg",
+    "display" : 1
+}]

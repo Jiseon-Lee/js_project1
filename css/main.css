@@ -76,6 +76,10 @@ nav {
     margin-bottom: 48px;
 }
 
+#main_nav_2 {
+    display: none;
+}
+
 .main_nav ul {
     display: grid;
     grid-template-columns: repeat(8, minmax(0, 1fr));
