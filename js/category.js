@@ -30,31 +30,18 @@ $(function(){
     });
 });
 
-// section_1 부담없는 알뜰 반찬 목록 불러오기
-$(function(){
-    $.ajax({
-        url: "./json/altelbanchan.json",
-        dataType: "json",
-        success : function(data){
-            console.log("altelbanchan");
-            if(data.length>0){
-                for(var i in data){
-                    $("#section_1 > .banchan_list").append(`
-                        <div class="product">
-                            <a href="#">
-                                <img src="${data[i].main_img}" alt="${data[i].name}">
-                                <div class="prd_discription">
-                                    <h4>${data[i].name}</h4>
-                                    <p>${data[i].discription}</p>
-                                    <h5>${data[i].discount_price}원</h5>
-                                </div>
-                            </a>
-                        </div>
-                    `);
+// 더보기 눌렀을 때
+$(function() {
+    $(".nav_more > button").on("click",function() {
+        console.log("nav more btn click");
+        $("#main_nav_2").slideToggle();
 
-
-                }
-            }
+        if($("#main_nav_2").show()) {
+            $(".nav_more span").text("접기");
+            $(".nav_more img").attr("src", "img/icon/icon-arrow-up.svg");
+        } else {
+            $(".nav_more span").text("더보기");
+            $(".nav_more img").attr("src", "img/icon/icon-arrow-down.svg");
         }
     });
-});
+})
