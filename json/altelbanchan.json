@@ -89,27 +89,4 @@
     ],
     "main_img" : "",
     "display" : 1
-},{
-    "name" : "시금치나물",
-    "discription" : "향긋하게 무쳐 깊은 풍미의",
-    "discount_price" : 3900,
-    "discount" : 9,
-    "price" : 4300,
-    "tag" : [
-        {"tag_id" : 1, "tag_name" : "맵지않음"},
-        {"tag_id" : 2, "tag_name" : "인기"}
-    ],
-    "main_img" : "",
-    "display" : 1
-},{
-    "name" : "건호박볶음",
-    "discription" : "별미반찬 국내산볶음이에요",
-    "discount_price" : 4300,
-    "discount" : 0,
-    "price" : null,
-    "tag" : [
-        {"tag_id" : 1, "tag_name" : "맵지않음"}
-    ],
-    "main_img" : "",
-    "display" : 1
 }]
