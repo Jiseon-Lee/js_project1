@@ -1,7 +1,7 @@
 var menu = 0;
-var saleRk = [];
-var commentRk = [];
-var recmRk = [];
+var saleRk;
+var commentRk;
+var recmRk;
 
 // 05_banchanranking.json 리스트를 받아옴
 const getRankingTotal = async () => {
@@ -11,10 +11,10 @@ const getRankingTotal = async () => {
 
         const data = await response.json();
         if (data.length > 0) {
-            console.log(data);
-            saleRk = JSON.parse(data.saleRk);
-            commentRk = JSON.parse(data.commentRk);
-            recmRk = JSON.parse(data.recmRk);
+            console.log("ranking.js ", data);
+            saleRk = data.saleRk;
+            commentRk = data.commentRk;
+            recmRk = data.recmRk;
             console.log("saleRk ", saleRk);
             console.log("commentRk ", commentRk);
             console.log("recmRk ", recmRk);

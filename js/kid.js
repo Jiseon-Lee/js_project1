@@ -4,12 +4,13 @@ var kid_index = 0;
 const getKidBanchanTotal = async () => {
     try {
         const response = await fetch("./json/02_kidbanchan.json");
+
         if (!response.ok) throw new Error("데이터를 불러오는 데 실패했습니다.");
 
         const data = await response.json();
         if (data.length > 0) {
             var show = data.slice(kid_index, (kid_index + 4));
-            console.log("kid ", show);
+            console.log("category.js - main_nav", data);
             getKidBanchan(show);
         }
     } catch (error) {
