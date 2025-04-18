@@ -1,52 +1,54 @@
-{
-    "골고루반찬식단" :
-        {"disc" : "메인요리 1, 반찬 5",
-            
-            "1": [
-            {
-                "name" : "한돈 미나리 고추장불고기_반조리",
-                "main_img" : "img/product/product_19.jpg"
-            },{
-                "name" : "건취나물볶음",
-                "main_img" : "img/product/product_23.jpg"
-            },{
-                "name" : "새콤달콤 돌나물무침",
-                "main_img" : "img/product/product_20.jpg"
-            },{
-                "name" : "버섯두부전",
-                "main_img" : "img/product/product_24.jpg"
-            },{
-                "name" : "유자향 오이무피클",
-                "main_img" : "img/product/product_25.jpg"
-            },{
-                "name" : "시금치나물",
-                "main_img" : "img/product/product_26.jpg"
-            }
-        ],
-        "2" : [
-            {
-                "name" : "한돈 대파 제육볶음_반조리",
-                "main_img" : "img/product/product_27.jpg"
-            },{
-                "name" : "우리집햄 메추리알 케찹볶음",
-                "main_img" : "img/product/product_28.jpg"
-            },{
-                "name" : "옥수수 버무리",
-                "main_img" : "img/product/product_5.jpg"
-            },{
-                "name" : "새우 애호박볶음",
-                "main_img" : "img/product/product_29.jpg"
-            },{
-                "name" : "양배추와 맛쌈장",
-                "main_img" : "img/product/product_30.jpg"
-            },{
-                "name" : "메추리알 간장조림 - 110g",
-                "main_img" : "img/product/product_31.jpg"
-            }
-        ]},
-    "실속식단" : 
-        {"disc" : "국1, 메인요리 1, 반찬 4",
-        "1": [
+[
+    {
+        "title" :  "골고루반찬식단",
+        "disc" : "메인요리 1, 반찬 5",
+        
+        "week1": [
+        {
+            "name" : "한돈 미나리 고추장불고기_반조리",
+            "main_img" : "img/product/product_19.jpg"
+        },{
+            "name" : "건취나물볶음",
+            "main_img" : "img/product/product_23.jpg"
+        },{
+            "name" : "새콤달콤 돌나물무침",
+            "main_img" : "img/product/product_20.jpg"
+        },{
+            "name" : "버섯두부전",
+            "main_img" : "img/product/product_24.jpg"
+        },{
+            "name" : "유자향 오이무피클",
+            "main_img" : "img/product/product_25.jpg"
+        },{
+            "name" : "시금치나물",
+            "main_img" : "img/product/product_26.jpg"
+        }
+    ],
+    "week2" : [
+        {
+            "name" : "한돈 대파 제육볶음_반조리",
+            "main_img" : "img/product/product_27.jpg"
+        },{
+            "name" : "우리집햄 메추리알 케찹볶음",
+            "main_img" : "img/product/product_28.jpg"
+        },{
+            "name" : "옥수수 버무리",
+            "main_img" : "img/product/product_5.jpg"
+        },{
+            "name" : "새우 애호박볶음",
+            "main_img" : "img/product/product_29.jpg"
+        },{
+            "name" : "양배추와 맛쌈장",
+            "main_img" : "img/product/product_30.jpg"
+        },{
+            "name" : "메추리알 간장조림 - 110g",
+            "main_img" : "img/product/product_31.jpg"
+        }
+    ]},
+        {
+            "title" :  "골고루반찬식단",
+            "disc" : "국1, 메인요리 1, 반찬 4",
+        "week1": [
             {
                 "name" : "한돈 버섯고추장찌개",
                 "main_img" : "img/product/product_22.jpg"
@@ -67,7 +69,7 @@
                 "main_img" : "img/product/product_35.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "콩나물 황태국(냉동)",
                 "main_img" : "img/product/product_36.jpg"
@@ -88,9 +90,10 @@
                 "main_img" : "img/product/product_30.jpg"
             }
         ]},
-    "시니어식단" : 
-        {"disc" : "국1, 메인요리 1, 반찬 4",
-        "1": [
+        {
+        "title" :  "골고루반찬식단",
+        "disc" : "국1, 메인요리 1, 반찬 4",
+        "week1": [
             {
                 "name" : "보리새우 아욱국(냉동)",
                 "main_img" : "img/product/product_38.jpg"
@@ -111,7 +114,7 @@
                 "main_img" : "img/product/product_40.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "콩나물 황태국(냉동)",
                 "main_img" : "img/product/product_36.jpg"
@@ -132,9 +135,10 @@
                 "main_img" : "img/product/product_45.jpg"
             }
         ]},
-    "건강한 시니어식단" : 
-        {"disc" : "국1, 메인요리 1, 반찬 4,단백질음료 4, 곡물 선식 2",
-        "1": [
+        {
+        "title" :  "골고루반찬식단",
+        "disc" : "국1, 메인요리 1, 반찬 4,단백질음료 4, 곡물 선식 2",
+        "week1": [
             {
                 "name" : "보리새우 아욱국(냉동)",
                 "main_img" : "img/product/product_38.jpg"
@@ -173,7 +177,7 @@
                 "main_img" : "img/product/product_48.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "콩나물 황태국(냉동)",
                 "main_img" : "img/product/product_36.jpg"
@@ -212,9 +216,10 @@
                 "main_img" : "img/product/product_48.jpg"
             }
         ]},
-    "가족식단" : 
-        {"disc" : "국2, 메인요리 2, 반찬 2",
-        "1": [
+        {
+        "title" :  "골고루반찬식단",
+        "disc" : "국2, 메인요리 2, 반찬 2",
+        "week1": [
             {
                 "name" : "달래 된장찌개",
                 "main_img" : "img/product/product_49.jpg"
@@ -235,7 +240,7 @@
                 "main_img" : "img/product/product_34.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "동태찌개",
                 "main_img" : "img/product/product_51.jpg"
@@ -256,9 +261,10 @@
                 "main_img" : "img/product/product_5.jpg"
             }
         ]},
-    "든든한 가족식단" : 
-        {"disc" : "국2, 메인요리 2, 반찬 4",
-        "1": [
+        {
+        "title" :  "골고루반찬식단",
+        "disc" : "국2, 메인요리 2, 반찬 4",
+        "week1": [
             {
                 "name" : "달래 된장찌개",
                 "main_img" : "img/product/product_49.jpg"
@@ -285,7 +291,7 @@
                 "main_img" : "img/product/product_35.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "동태찌개",
                 "main_img" : "img/product/product_51.jpg"
@@ -312,9 +318,10 @@
                 "main_img" : "img/product/product_30.jpg"
             }
         ]},
-    "아이식단" : 
-        {"disc" : "국1, 메인요리 1, 밥류 1, 반찬 2",
-        "1": [
+        {
+        "title" :  "골고루반찬식단",
+        "disc" : "국1, 메인요리 1, 밥류 1, 반찬 2",
+        "week1": [
             {
                 "name" : "한우사골곰탕(냉동)",
                 "main_img" : "img/product/product_53.jpg"
@@ -332,7 +339,7 @@
                 "main_img" : "img/product/product_55.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "한우 사골 미역국(냉동)",
                 "main_img" : "img/product/product_56.jpg"
@@ -350,9 +357,10 @@
                 "main_img" : "img/product/product_1.jpg"
             }
         ]},
-    "든든한 아이식단" : 
-        {"disc" : "국1, 메인요리 1, 밥류 1, 반찬 5",
-        "1": [
+        {
+        "title" :  "골고루반찬식단",
+        "disc" : "국1, 메인요리 1, 밥류 1, 반찬 5",
+        "week1": [
             {
                 "name" : "한우사골곰탕(냉동)",
                 "main_img" : "img/product/product_53.jpg"
@@ -379,7 +387,7 @@
                 "main_img" : "img/product/product_23.jpg"
             }
         ],
-        "2" : [
+        "week2" : [
             {
                 "name" : "한우 사골 미역국(냉동)",
                 "main_img" : "img/product/product_56.jpg"
@@ -406,4 +414,4 @@
                 "main_img" : "img/product/product_28.jpg"
             }
         ]}
-}
+]

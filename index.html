@@ -15,6 +15,7 @@
     <script src="./js/kid.js"></script>
     <script src="./js/new.js"></script>
     <script src="./js/ranking.js"></script>
+    <script src="./js/regular.js"></script>
 </head>
 
 <body>
@@ -204,10 +205,10 @@
             </div>
             <div id="regular_list">
                 <div class="regular_list_disc">
-                    <h3>골고루반찬식단</h3>
-                    <span><strong>메인요리 1, 반찬 5개</strong>로 구성된 식단이에요.</span>
+                    <h3 class="title"></h3>
+                    <span><strong class="disc"></strong>로 구성된 식단이에요.</span>
                 </div>
-                <div class="regular_list_contain"> <!-- 식단 1 -->
+                <div class="regular_list_contain" id="week1"> <!-- 식단 1 -->
                     <h4>2월 25~27일 (화/수/목)</h4>
                     <ul>
                         <!-- 1번째 반찬 리스트 -->
@@ -219,7 +220,7 @@
 -->                        
                     </ul>
                 </div>
-                <div class="regular_list_contain"> <!-- 식단 2 -->
+                <div class="regular_list_contain" id="week2"> <!-- 식단 2 -->
                     <h4>2월 28일~3월 3일 (금/토/월)</h4>
                     <ul>
                         <!-- 2번째 반찬 리스트 -->
