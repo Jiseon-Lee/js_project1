@@ -403,10 +403,13 @@ section .section_head p a img {
 }
 
 .regular_list_contain ul {
-    display:inline-block;
+    display: flex;
+    width: 815px;
+    overflow: hidden;
 }
 
 .regular_list_contain ul li {
+    width: 93px;
     float: left;
     margin-right:10px;
 }
