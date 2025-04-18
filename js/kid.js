@@ -9,6 +9,7 @@ const getKidBanchanTotal = async () => {
         const data = await response.json();
         if (data.length > 0) {
             var show = data.slice(kid_index, (kid_index + 4));
+            console.log("kid ", show);
             getKidBanchan(show);
         }
     } catch (error) {

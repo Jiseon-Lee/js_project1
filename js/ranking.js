@@ -27,6 +27,7 @@ const getRankingTotal = async () => {
 
 // 문서가 로드되면
 document.addEventListener('DOMContentLoaded', function() {
+    console.log("ranking.js")
     getRankingTotal();
 })
 
