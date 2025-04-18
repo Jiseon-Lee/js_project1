@@ -1,4 +1,3 @@
-var menu = 0;
 var saleRk;
 var commentRk;
 var recmRk;
@@ -30,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function getRkBanchanList(list) {      // 보여줄 상품을 HTML에 추가
-    console.log("getRkBanchanList", list);
+    console.log("getRkBanchanList");
+    $("#section_5 .rank_list").empty();
     for(let i in list){
-        console.log("getRkBanchanList " + i, list[i]);
         $("#section_5 .rank_list").append(`
             <div class="product_rank">
                 <div>
@@ -55,3 +54,18 @@ function getRkBanchanList(list) {      // 보여줄 상품을 HTML에 추가
     }
 }
 
+$(function() {
+    $(".rank_tab li").click(function() {
+        console.log("rankingTab changed ");
+        var menu = $(".rank_tab li").index(this);
+        $(".rank_tab li").removeClass("on");
+        $(".rank_tab li").eq(menu).addClass("on");
+        if(menu == 0) {
+            getRkBanchanList(saleRk);
+        } else if (menu == 1) {
+            getRkBanchanList(commentRk);
+        } else {
+            getRkBanchanList(recmRk);
+        }
+    });
+});
