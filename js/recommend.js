@@ -30,6 +30,7 @@ function getRcmBanchanList(obj) {      // 보여줄 상품을 HTML에 추가
     $("#section_6 .rec_right_header p").html(`${obj["disc"]}`);
 
     var list = obj["list"]
+    $("#section_6 .rec_right_content").empty();
     for(let i in list){
         $("#section_6 .rec_right_content").append(`
             <div class="product_rec">
@@ -44,12 +45,12 @@ function getRcmBanchanList(obj) {      // 보여줄 상품을 HTML에 추가
     }
 }
 
-// $(function() {
-//     $(".recommend_tab span").click(function() {
-//         var menu = $(".recommend_tab span").index(this);
-//         $(".recommend_tab span").removeClass("nav_on");
-//         $(".recommend_tab span").eq(menu).addClass("nav_on");
-//         console.log("recommendTab changed ", menu);
-//         getRgBanchanList(rcmBanchanList[menu]);
-//     });
-// });
+$(function() {
+    $("#section_6 .recommend_tab span").click(function() {
+        var menu = $("#section_6 .recommend_tab span").index(this);
+        $("#section_6 .recommend_tab span").removeClass("on");
+        $("#section_6 .recommend_tab span").eq(menu).addClass("on");
+        console.log("recommend_tab changed ", menu);
+        getRcmBanchanList(rcmBanchanList[menu]);
+    });
+});
