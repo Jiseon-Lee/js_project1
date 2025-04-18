@@ -4,7 +4,7 @@ $(function(){
         url: "./json/01_altelbanchan.json",
         dataType: "json",
         success : function(data){
-            console.log("altel" + data);
+            console.log("altel.js ", data);
             if(data.length>0){
                 for(var i in data){
                     $("#section_1 > .banchan_list").append(`

@@ -4,8 +4,7 @@ $(function(){
         url: "./json/main_nav.json",
         dataType: "json",
         success : function(data){
-            console.log("main_nav");
-            console.log(data);
+            console.log("category.js - main_nav", data);
             if(data.length>0){
                 for(var i in data.slice(0, 8)){
                     $("#main_nav_1 > ul").append(`

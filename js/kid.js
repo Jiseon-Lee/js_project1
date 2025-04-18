@@ -44,3 +44,4 @@ function getKidBanchan(list) {      // 보여줄 상품을 HTML에 추가
         }
     }
 }
+

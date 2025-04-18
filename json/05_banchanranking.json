@@ -1,5 +1,5 @@
 {  
-    "판매량" :
+    "saleRk" :
         [{
             "name" : "호두 멸치볶음",
             "discription" : "잔멸치와 호두가 만나 짭쪼름하지만 고소하게!",
@@ -70,7 +70,7 @@
             "main_img" : "img/product/product_1.jpg",
             "display" : 1
         }],
-    "댓글" :
+    "commentRk" :
         [{
             "name" : "검은콩조림",
             "discription" : "국내산 검은콩은 약콩입니다",
@@ -141,7 +141,7 @@
             "main_img" : "img/product/product_63.jpg",
             "display" : 1
         }],
-    "추천" :
+    "recmRk" :
         [{
             "name" : "한우 비빔밥",
             "discription" : "고기를 더해 더 맛깔스러워진",
