@@ -12,14 +12,10 @@ const getRankingTotal = async () => {
 
         const data = await response.json();
         console.log("ranking.js ", data);
-        console.log(data.length);
-        if (data.length > 0) {
+        if (Object.keys(data).length > 0) {
             saleRk = data.saleRk;
             commentRk = data.commentRk;
             recmRk = data.recmRk;
-            console.log("saleRk ", saleRk);
-            console.log("commentRk ", commentRk);
-            console.log("recmRk ", recmRk);
             getRkBanchanList(saleRk);
         }
     } catch (error) {
@@ -34,17 +30,18 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function getRkBanchanList(list) {      // 보여줄 상품을 HTML에 추가
-    console.log("getRkBanchanList");
+    console.log("getRkBanchanList", list);
     for(let i in list){
-        $("#section_5 > .banchan_list").append(`
+        console.log("getRkBanchanList " + i, list[i]);
+        $("#section_5 .rank_list").append(`
             <div class="product_rank">
                 <div>
-                    <img src="${list.main_img}" alt="${list.name}">
+                    <img src="${list[i].main_img}" alt="${list[i].name}">
                 </div>
                 <div class="prd_discription">
-                    <h4>${list.name}</h4>
-                    <p>${list.discription}</p>
-                    <h5>${list.discount_price}원</h5>
+                    <h4>${list[i].name}</h4>
+                    <p>${list[i].discription}</p>
+                    <h5>${list[i].discount_price}원</h5>
                 </div>
             </div>
         `);
