@@ -7,11 +7,12 @@ var recmRk;
 const getRankingTotal = async () => {
     try {
         const response = await fetch("./json/05_banchanranking.json");
+        console.log("getRankingTotal");
         if (!response.ok) throw new Error("데이터를 불러오는 데 실패했습니다.");
 
         const data = await response.json();
+        console.log("ranking.js ", data);
         if (data.length > 0) {
-            console.log("ranking.js ", data);
             saleRk = data.saleRk;
             commentRk = data.commentRk;
             recmRk = data.recmRk;
@@ -27,11 +28,12 @@ const getRankingTotal = async () => {
 
 // 문서가 로드되면
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("ranking.js")
+    console.log("ranking.js addEventListener");
     getRankingTotal();
 })
 
 function getRkBanchanList(list) {      // 보여줄 상품을 HTML에 추가
+    console.log("getRkBanchanList");
     for(let i in list){
         $("#section_5 > .banchan_list").append(`
             <div class="product_rank">
