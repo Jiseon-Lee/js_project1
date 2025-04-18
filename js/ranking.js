@@ -12,6 +12,7 @@ const getRankingTotal = async () => {
 
         const data = await response.json();
         console.log("ranking.js ", data);
+        console.log(data.length);
         if (data.length > 0) {
             saleRk = data.saleRk;
             commentRk = data.commentRk;
